@@ -1,0 +1,58 @@
+/* .bigbox {
+  width: 250px;
+}
+.box {
+  background-color: skyblue;
+  width: 250px;
+  height: 160px;
+  border-radius: 10px;
+  background-image: url(man.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.f {
+  padding-top: 10px;
+}
+.a {
+  color: blue;
+  font-size: 15px;
+}
+.b {
+  margin-top: -1px;
+  font-weight: bold;
+}
+.c {
+  margin-top: -10px;
+  color: gray;
+  font-size: 15px;
+} */
+
+.card {
+  width: 200px;
+  height: 400px;
+}
+.card > img {
+  width: 100%;
+  height: 50%;
+  background-color: skyblue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card > strong {
+  font-size: 14px;
+  font-weight: bold;
+  color: blue;
+}
+
+.card > p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card > span {
+  color: #dbdbdb;
+  font-size: 12px;
+  margin-top: 10px;
+}
