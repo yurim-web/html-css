@@ -1,0 +1,84 @@
+.card {
+    width: 350px;
+    height: 500px;
+    padding: 24px;
+  
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .card > figure {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+  
+  .card > figure > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .card > figure > .button_layout {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  
+  .roundedButton {
+    background-color: #e2eaf8;
+    border: 1px solid #e2eaf8;
+    opacity: 0.7;
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+  }
+  
+  .heart {
+    color: #f93c65;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+  }
+  
+  .card > section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 14px;
+    position: relative;
+  }
+  
+  .card > section > strong {
+    color: #202224;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+  
+  .card > section > .price {
+    color: #4880ff;
+    font-weight: 700;
+  }
+  
+  .card > section > .rate {
+    color: #dbdbdd;
+  }
+  .point {
+    color: #ff9500;
+  }
+  .editButton {
+    background-color: #e2eaf8;
+    border: 1px solid #e2eaf8;
+    color: #202224;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px 22px;
+  }

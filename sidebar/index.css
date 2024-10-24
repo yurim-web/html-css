@@ -1,0 +1,22 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .link {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 5px 5px 10px;
+  }
+  
+  .link > i {
+    margin-right: 5px;
+  }
