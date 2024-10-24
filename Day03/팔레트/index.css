@@ -1,0 +1,60 @@
+.container {
+  /* flex : 자식들을 일렬로 바꾸는 속성 */
+  display: flex;
+  flex-direction: row;
+  /* colum : 새로축 / row : 가로축 */
+
+  /* justify-content: (main 축);
+    align-items (sub 축) */
+}
+
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: #1abc9c;
+}
+.box2 {
+  width: 200px;
+  height: 100px;
+  background-color: #2ecc71;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.box3 {
+  width: 200px;
+  height: 100px;
+  background-color: #16a085;
+}
+.box4 {
+  width: 200px;
+  height: 100px;
+  background-color: #27ae60;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.box5 {
+  width: 200px;
+  height: 100px;
+  background-color: #f1c40f;
+}
+.box6 {
+  width: 200px;
+  height: 100px;
+  background-color: #e67e22;
+}
+
+.name {
+  display: block;
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
