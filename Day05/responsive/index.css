@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+
+  gap: 5px;
+}
+
+.icon {
+  display: none;
+}
+/* 모바일 버전일 떄 */
+
+@media screen and (max-width: 768px) {
+  nav > ul {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* 테블릿버전 */
+@media screen and (max-width: 1024px) {
+  .contatiner {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,36 @@
+header {
+  width: 100vw;
+  background-color: white;
+  z-index: 1;
+}
+
+.box1 {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  font-size: 23px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.box1 > h1 {
+  padding-top: 10px;
+}
+
+.menu > ul {
+  display: flex;
+  align-items: center;
+}
+
+.link > li {
+  padding: 18px 35px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.link > li:hover {
+  color: white;
+  background-color: grey;
+  cursor: grab;
+}

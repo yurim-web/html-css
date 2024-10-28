@@ -1,0 +1,29 @@
+.container {
+  gap: 5px;
+  display: flex;
+  width: 900px;
+  height: 200px;
+  margin: 0 auto;
+
+  /* background-color: beige; */
+}
+
+.logo {
+  width: 50px;
+  height: 100px;
+  display: flex;
+  object-fit: contain;
+  object-fit: cover;
+  padding-right: 100px;
+}
+
+.menu {
+  padding: 40px 20px;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 10px;
+  font-weight: 800;
+}

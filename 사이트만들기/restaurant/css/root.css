@@ -1,0 +1,16 @@
+:root {
+  /* background-color */
+  --background--color--grey: #f5f5f5;
+
+  /* font */
+  --font--letter--spaceing--small: 10px;
+  --font--letter--spaceing--medium: 10px;
+
+  --font--line--height--small: 1.4;
+  --font--line--height--medium: 2;
+
+  --font--size--small: 11px;
+  --font--size--medium: 14px;
+  --font--size--large: 20px;
+  --font--size--mega: 42px;
+}

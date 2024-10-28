@@ -1,0 +1,47 @@
+.sec1 {
+  width: 100vw;
+  height: 600px;
+  /* border: 1px solid red; */
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main {
+  padding-top: 130px;
+}
+
+.box {
+  margin: 0 auto;
+
+  max-width: 1040px;
+
+  color: white;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.box > .title {
+  display: block;
+  color: white;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.box > p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.box > button {
+  margin-top: 40px;
+  width: 350px;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  font-weight: 600;
+}

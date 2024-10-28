@@ -1,0 +1,10 @@
+.motto {
+  padding: 200px 0px;
+}
+
+.motto > article {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+}
