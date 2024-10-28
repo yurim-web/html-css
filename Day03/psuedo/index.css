@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /*  바꿈이 일어나는 속성을 컨트롤 함 */
+  transition: all 1s cubic-bezier(1, 0.25, 0.71, 0.38);
+  /*  타겟, 걸리는시간 애니메이션함수 */
+}
+
+.box:hover {
+  /* 마우스 올렸을 떄 */
+  background-color: green;
+  /* width: 200px;
+  height: 200px; */
+  transform: rotate(45deg), scale(1.2);
+  /* 45도로 돌린다 */
+}

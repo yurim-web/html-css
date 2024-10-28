@@ -1,0 +1,25 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+
+  /* 글씨 가운데 보내기 */
+  text-align: center;
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+
+  /* 콘텐츠를 가운데 보내는 방법 */
+  margin: 0 auto;
+}
+
+.block {
+  width: 50%;
+  height: 50%;
+  background-color: green;
+
+  margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+/* body {
+  background-color: skyblue;
+  height: 200vh;
+}
+ */
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+/* background-color: pink; */
+/* elative : 현재 위치에서 움직이기 */
+/* fixed : 브라우저에서 고정됨 */
+/* position: fixed;
+  top: 10px;
+  left: 10px; */
+
+.ice {
+  /* absolute : 절대적(브라우저 위치) */
+  /* 단, 부모가 relative or fixed이면 그것을 절대기준으로 잡는다. */
+  position: absolute;
+  right: 10px;
+}

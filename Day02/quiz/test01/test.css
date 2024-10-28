@@ -1,0 +1,30 @@
+.box {
+  background-color: #273142;
+  width: 250px;
+  height: 160px;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.a {
+  margin-top: 8px;
+  color: gray;
+}
+.price {
+  color: white;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.green {
+  color: #00b69b;
+}
+.index {
+  margin-top: 50px;
+  color: white;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #00b69b;
+  border-radius: 9999px;
+}
